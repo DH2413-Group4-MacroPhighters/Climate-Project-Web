@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(to bottom, #beedf8, #b5f0f6, #aef3f2, #aaf5eb, #a9f7e2, #b3f5d6, #bff3cb, #cbf0c1, #dce9ba, #e9e3b9, #f2ddbd, #f5d9c3);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    height: 400vh;
+}
+
+header {
+    height: 30vh;
+    background-color: antiquewhite;
+    padding: 3em;
+}
+
+header h1{
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    position: relative;
+}
+#cloud1{
+    align-self: flex-start;
+}
+#cloud3{
+    align-self: end;
+}
+
+h1{
+    margin: 0;
+    padding-left: 20px;
+}
+
+#about {
+    display: flex;
+    margin: 5em 1em 10em 1em;
+}
+
+#AboutText {
+    background-color: white;
+    opacity: 80%;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 0em -1em 0em -1em;
+}
+
+.section{
+    margin: 5em 1em 2em 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.TextBox{
+    background-color: white;
+    opacity: 80%;
+    padding: 1em;
+    border-radius: 20px;
+    margin-right: 1em;
+    flex-grow: 2;
+}
+
+.MediaBox {
+    background-color: white;
+    opacity: 80%;
+    padding: 1em;
+    border-radius: 20px;
+    /* margin: 1em; */
+    flex-grow: 1;
+}
