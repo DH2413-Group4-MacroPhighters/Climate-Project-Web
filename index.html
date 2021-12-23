@@ -50,8 +50,30 @@
           <h1>THE DEVELOPMENT OF THE APP</h1>
           <div class="row">
             <div class="TextBox">
-              <p style="color: blue;">Explanation and Justification of the graphics and interaction technologies used and developed</p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              During the first week of the development process the main focus was to develop a MVP that 
+              allowed connections between multiple platforms and displayed simpler graphics. We used 
+              <b>Node.js</b> to run it and <b>Socket.io</b> to allow the connection between multiple 
+              platforms, which in this case was a running Unity project and internet browsers. The 
+              <b>Unity</b> project displayed a simpler 3D world while the browsers showed an interactive 
+              2D map over the world, by the help of <b>Leaflet.js</b>. If the user taped the map a tree 
+              would be placed and the user could see the tree being dropped in the 3D world. 
+              <br></br>
+              When it was time to branch out on the MVP we had three areas: the graphics, the interaction and 
+              the logic. For the graphics part a larger and more detailed 3D world was created in 
+              <b>Blender</b> and later on exported to Unity. More 3D models, like power plants and nature 
+              objects were also created and added. Some objects like the water and electrical cables needed 
+              shading and these were scripted. For the interaction we allowed the user to choose between 
+              multiple objects to place on the map. To make sure the interface was mobile responsive we used 
+              <b>Onsen UI</b> and their components. The user was also asked to enter an alias when entering 
+              the page to tell who did what interactions and display that for the other users. And for the 
+              logic part we added more things in Unity, like a graph displayed on the larger screen, to show 
+              all users how their different interactions affected the CO2 emissions, and a bar that gave an 
+              overview to what energy sources that was used. To give a more alive and responsive world we 
+              integrated a day and night cycle and if the CO2 emissions were too high a fog appeared. 
+              <br></br>
+              When the project was displayed to users we deployed the project with the help of a 
+              <b>Raspberry Pi</b> and the users scanned a <b>QR code</b>, leading to the deployed website, 
+              to join. That allowed everyone to use their own phone in a very efficient way.
             </div>
             <div class="MediaBox">
               <p style="color: blue;">"Making of" documentary (approximately 2 - 4 minutes)</p>
