@@ -48,6 +48,10 @@ h1{
     margin: 0em -1em 0em -1em;
 }
 
+#relatedwork {
+    display: flex;
+}
+
 .section{
     margin: 10em 1em 2em 1em;
 }
@@ -63,7 +67,15 @@ h1{
     padding: 1em;
     border-radius: 20px;
     margin-right: 1em;
+    flex-direction: row;
     flex-grow: 2;
+    /* display: flex; */
+}
+
+.col-3 {
+    flex-shrink: 3;
+    padding: 1em;
+    text-align: center;
 }
 
 .MediaBox {
