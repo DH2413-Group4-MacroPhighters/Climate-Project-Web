@@ -44,8 +44,7 @@ h3{
 }
 
 #AboutText {
-    background-color: white;
-    opacity: 80%;
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 1em;
     border-radius: 20px;
     margin: 0em -1em 0em -1em;
@@ -85,8 +84,7 @@ h3{
 }
 
 .TextBox{
-    background-color: white;
-    opacity: 80%;
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 1em;
     border-radius: 20px;
     margin-right: 1em;
@@ -102,8 +100,7 @@ h3{
 }
 
 .MediaBox {
-    background-color: white;
-    opacity: 80%;
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 1em;
     border-radius: 20px;
     flex-grow: 1;
