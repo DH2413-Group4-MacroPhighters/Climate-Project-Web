@@ -88,7 +88,6 @@ h3{
     background-color: rgb(255, 255, 255, 0.8);
     padding: 1em;
     border-radius: 20px;
-    margin-right: 1em;
     flex-direction: row;
     flex-grow: 2;
     /* display: flex; */
@@ -105,4 +104,30 @@ h3{
     padding: 1em;
     border-radius: 20px;
     flex-grow: 1;
+    margin-left: 1em;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .row {
+        flex-direction: column;
+    }
+    .TextBox{
+        flex-direction: column;
+    }
+    .MediaBox {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    #team {
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: x-large;
+    }
+    .profilecard {
+        width: 40vw;
+    }
+    .profilecard img {
+        width: 40vw;
+    }
 }
