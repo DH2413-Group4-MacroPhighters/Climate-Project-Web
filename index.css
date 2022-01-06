@@ -29,6 +29,28 @@ img {
 #cloud3{
     align-self: end;
 }
+.windturbine {
+    width: 500px;
+    flex: auto;
+    position: relative;
+}
+#windturbinebuilding {
+    width: 400px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#windturbineblade {
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    animation: rotate 1.2s infinite;
+}
+@keyframes rotate {
+    100% {transform: rotate(360deg);}
+  }
 
 h1{
     padding-left: 30px;
@@ -184,7 +206,7 @@ h3{
 
 .demo {
     opacity: 0.6;
-    height: 100px;
+    height: 70px;
     margin: 10px;
 }
 
