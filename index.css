@@ -31,7 +31,7 @@ img {
 }
 
 h1{
-    padding-left: 20px;
+    padding-left: 30px;
     margin: 0px;
 }
 h3{
@@ -86,6 +86,7 @@ h3{
 
 .TextBox{
     background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     padding: 1em;
     border-radius: 20px;
     flex-direction: row;
@@ -102,6 +103,7 @@ h3{
 
 .MediaBox {
     background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     padding: 1em;
     border-radius: 20px;
     flex-grow: 1;
@@ -198,6 +200,7 @@ h3{
     }
     .TextBox{
         flex-direction: column;
+        margin-left: 0;
     }
     .MediaBox {
         margin-top: 20px;
@@ -213,5 +216,8 @@ h3{
     }
     .profilecard img {
         width: 40vw;
+    }
+    .demo {
+        height: 50px;
     }
 }
