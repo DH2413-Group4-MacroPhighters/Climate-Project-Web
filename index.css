@@ -46,10 +46,10 @@ img {
     z-index: 1;
     top: 0;
     left: 0;
-    animation: rotate 1.2s infinite;
+    animation: rotate 4s infinite;
 }
 @keyframes rotate {
-    100% {transform: rotate(360deg);}
+    100% {transform: rotate(2880deg);}
   }
 
 h1{
